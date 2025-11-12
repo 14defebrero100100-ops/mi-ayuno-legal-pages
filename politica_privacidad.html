@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad - Mi Ayuno</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+            color: #333;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #8B5CF6;
+            border-bottom: 3px solid #8B5CF6;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #6366F1;
+            margin-top: 30px;
+        }
+        .last-updated {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 30px;
+        }
+        .contact {
+            background: #f0f0f0;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Política de Privacidad</h1>
+        <p class="last-updated">Última actualización: <span id="fecha"></span></p>
+
+        <h2>1. Información que Recopilamos</h2>
+        <p>Mi Ayuno recopila la siguiente información:</p>
+        <ul>
+            <li><strong>Información de cuenta:</strong> Email, nombre (cuando inicias sesión con Google)</li>
+            <li><strong>Datos de salud:</strong> Peso, altura, género, fecha de nacimiento (opcional)</li>
+            <li><strong>Datos de ayuno:</strong> Horarios de ayuno, planes seleccionados, progreso</li>
+            <li><strong>Datos de actividad:</strong> Pasos, distancia recorrida (si permites el acceso)</li>
+            <li><strong>Preferencias:</strong> Configuraciones de la app, notificaciones</li>
+        </ul>
+
+        <h2>2. Cómo Usamos tu Información</h2>
+        <p>Utilizamos tu información para:</p>
+        <ul>
+            <li>Proporcionar y mejorar nuestros servicios</li>
+            <li>Sincronizar tus datos entre dispositivos</li>
+            <li>Enviar notificaciones y recordatorios personalizados</li>
+            <li>Analizar el uso de la app para mejoras</li>
+            <li>Mantener la seguridad de tu cuenta</li>
+        </ul>
+
+        <h2>3. Almacenamiento de Datos</h2>
+        <p>Tus datos se almacenan de forma segura en Firebase (Google Cloud Platform), que cumple con los más altos estándares de seguridad y privacidad.</p>
+
+        <h2>4. Compartir Información</h2>
+        <p><strong>No vendemos ni compartimos tu información personal</strong> con terceros para fines comerciales. Solo compartimos datos cuando:</p>
+        <ul>
+            <li>Es necesario para proporcionar el servicio (Firebase, Google Sign-In)</li>
+            <li>Está requerido por ley</li>
+            <li>Has dado tu consentimiento explícito</li>
+        </ul>
+
+        <h2>5. Tus Derechos</h2>
+        <p>Tienes derecho a:</p>
+        <ul>
+            <li>Acceder a tus datos personales</li>
+            <li>Corregir información incorrecta</li>
+            <li>Eliminar tu cuenta y todos tus datos</li>
+            <li>Exportar tus datos</li>
+            <li>Retirar tu consentimiento en cualquier momento</li>
+        </ul>
+
+        <h2>6. Seguridad</h2>
+        <p>Implementamos medidas de seguridad técnicas y organizativas para proteger tu información personal contra acceso no autorizado, pérdida o destrucción.</p>
+
+        <h2>7. Cookies y Tecnologías Similares</h2>
+        <p>Mi Ayuno utiliza tecnologías estándar de la industria para mejorar la experiencia del usuario. No utilizamos cookies de seguimiento de terceros.</p>
+
+        <h2>8. Cambios a esta Política</h2>
+        <p>Podemos actualizar esta Política de Privacidad ocasionalmente. Te notificaremos de cambios importantes mediante una notificación en la app o por email.</p>
+
+        <h2>9. Menores de Edad</h2>
+        <p>Mi Ayuno no está dirigido a menores de 13 años. No recopilamos intencionalmente información de menores de 13 años.</p>
+
+        <div class="contact">
+            <h2>10. Contacto</h2>
+            <p>Si tienes preguntas sobre esta Política de Privacidad, puedes contactarnos en:</p>
+            <p><strong>Email:</strong> [TU_EMAIL_AQUI]</p>
+            <p><strong>App:</strong> Mi Ayuno</p>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('fecha').textContent = new Date().toLocaleDateString('es-ES', { 
+            year: 'numeric', 
+            month: 'long', 
+            day: 'numeric' 
+        });
+    </script>
+</body>
+</html>
+
